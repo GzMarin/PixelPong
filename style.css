@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background: #0f0f1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Courier New', monospace;
+}
+
+#gameCanvas {
+  border: 2px solid #44ffcc;
+  background: #000;
+  image-rendering: pixelated;
+}
